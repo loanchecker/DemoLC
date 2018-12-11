@@ -16,8 +16,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ronaldarias.apirest.models.entity.Prestamos;
-import com.ronaldarias.apirest.models.service.*;
-
+import com.ronaldarias.apirest.models.service.PrestamosService;
 
 @CrossOrigin(origins = {"http://localhost:4200"})
 @RestController
